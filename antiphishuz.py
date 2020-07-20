@@ -1,3 +1,12 @@
+
+
+
+import requests
+import urllib.request, urllib.parse, urllib.error
+import os
+from colorama import Fore, Back, Style
+import time
+
 FG = Fore.GREEN
 FC = Fore.CYAN
 FW = Fore.WHITE
@@ -6,12 +15,6 @@ FM = Fore.MAGENTA
 FB = Fore.BLUE
 FR = Fore.RED
 
-
-import requests
-import urllib.request, urllib.parse, urllib.error
-import os
-from colorama import Fore, Back, Style
-import time
 
 def cls():
     os.system('clear')
