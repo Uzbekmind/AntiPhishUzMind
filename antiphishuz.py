@@ -1,10 +1,10 @@
-FG = Fore.GREEN
-FC = Fore.CYAN
-FW = Fore.WHITE
-FY = Fore.YELLOW
-FM = Fore.MAGENTA
-FB = Fore.BLUE
-FR = Fore.RED
+FG = 'Fore.GREEN'
+FC = 'Fore.CYAN'
+FW = 'Fore.WHITE'
+FY = 'Fore.YELLOW'
+FM = 'Fore.MAGENTA'
+FB = 'Fore.BLUE'
+FR = 'Fore.RED'
 
 
 import requests
