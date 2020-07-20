@@ -35,7 +35,7 @@ def banner():
      \_____/(_) \___/ 
                   
     ''')
-    print(FC + "Created: #THE UZBEKMIND & @Uzbekmind_Public (telegram) & @Umchats (telegram Chat)
+    print(FC + Created: THE UZBEKMIND & @Uzbekmind_Public (telegram) & @Umchats (telegram Chat)
     print('--------------------------------------------------------')
     print('\n')             
 cls()
