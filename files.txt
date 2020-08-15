@@ -1,4 +1,3 @@
-m.vk.cc
 geo
 password
 passwords
@@ -43,3 +42,7 @@ victim_list
 0
 hack
 hacked
+userscom.phishing
+telegram
+cracked
+m.vk.cc
