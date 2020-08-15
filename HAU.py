@@ -79,7 +79,7 @@ for line in file:
         urllib.request.urlretrieve(a + line[:-1] + '.db', 'core/' + 'cracked.db')
         ok = '2'
     except:
-        print(FR + 'Data base' + str(line) + 'Not found!' + FG +  ' | ' + FR 'Ma`lumotlar bazasi' + str(line) + 'topilmadi!')
+        print(FR + 'Data base' + str(line) + 'Not found!' + FG +  ' | ' + FR + 'Ma`lumotlar bazasi' + str(line) + 'topilmadi!')
         if int(ok) >= 1:
             print(FG + 'Great hack my kiddie! Cracked file:' + line + FR + ' | ' + FG + 'Qoyilmaqom ish! Siz fishing saytni egallab oldingiz! Fayl nomi: ' + line)
             print('')
