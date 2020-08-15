@@ -85,14 +85,14 @@ for line in file:
             print('')
             print(FM + ' Loading files...' + FG + ' | ' + FM + 'Fayldagi malumotlar yuklanmoqda...' + FW + '\n\n')
             os.system('cat core/cracked.txt')
-            print(FM + 'See results, after 7 sec we`ll continue' + FG + ' | ' + FM '7 sekund davomida yuqoridagi natijani ko`rishingiz mumkin, undan keyin davom etamiz!')
+            print(FM + 'See results, after 7 sec we`ll continue' + FG + ' | ' + FM + '7 sekund davomida yuqoridagi natijani ko`rishingiz mumkin, undan keyin davom etamiz!')
             time.sleep(7)
             ok = 0
             if ok == '1':
 
-                print(FC + 'Saved: core/cracked.txt' + FG + ' | ' + FC 'core/cracked.txt nomli faylga saqlandi!')
+                print(FC + 'Saved: core/cracked.txt' + FG + ' | ' + FC + 'core/cracked.txt nomli faylga saqlandi!')
             elif ok == '2':
-                print(FC + 'Saved: core/cracked.db' + FG +  ' | ' + FC 'core/cracked.db nomli faylga saqlandi!')
+                print(FC + 'Saved: core/cracked.db' + FG +  ' | ' + FC + 'core/cracked.db nomli faylga saqlandi!')
             print('\n')
             print(FB + 'Cracking again...' + FG + ' | ' + FB + 'Qidiruvimiz davom etamoqda... \n')
             time.sleep(2)
@@ -101,16 +101,16 @@ if a == '1':
     cls()
     banner()
 
-    print(FG + 'Loading file data...' + FR ' | ' + FG + 'Fayldagi ma`lumotlar yuklanmoqda: \n\n' + FW)
+    print(FG + 'Loading file data...' + FR + ' | ' + FG + 'Fayldagi ma`lumotlar yuklanmoqda: \n\n' + FW)
     print(FY + '----------------------------------------------------------------\n\n')
     print(FW + '')
     os.system('cat core/cracked.txt')
     print(FY + '\n\n----------------------------------------------------------------')
-    q = input(FG + 'Secured data' + FR + ' | ' + FG '\nHimoyalangan ma`lumot!')
+    q = input(FG + 'Secured data' + FR + ' | ' + FG + '\nHimoyalangan ma`lumot!')
  
 elif a == '2':
     cls()
     banner()
-    print(FG + 'Saved: core/cracked.db' + FR ' | ' + FG + 'core/cracked.db nomli faylga saqlandi!')
+    print(FG + 'Saved: core/cracked.db' + FR + ' | ' + FG + 'core/cracked.db nomli faylga saqlandi!')
 else:
-    print(FB + 'Oops! Nothing found!' + FG + ' | ' + FB 'Voy! Hech nima topilmadi!' + FW)
+    print(FB + 'Oops! Nothing found!' + FG + ' | ' + FB + 'Voy! Hech nima topilmadi!' + FW)
