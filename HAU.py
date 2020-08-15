@@ -74,7 +74,7 @@ for line in file:
         urllib.request.urlretrieve(a + line[:-1]+ '.lst', 'core/' + 'cracked.txt')
         ok = '1'
     except:
-        print(FR + 'List' + str(line) + 'Not found' + FG ' | ' + FR + 'Ro`yhat' + str(line) + 'topilmadi!')
+        print(FR + 'List' + str(line) + 'Not found' + FG +  ' | ' + FR + 'Ro`yhat' + str(line) + 'topilmadi!')
     try:
         urllib.request.urlretrieve(a + line[:-1] + '.db', 'core/' + 'cracked.db')
         ok = '2'
